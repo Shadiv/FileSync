@@ -2,6 +2,7 @@ import os
 import sys
 import logging
 
+# Synchronization class. 
 class Filesync:
     def __init__(self):
         self.source = input("Source path: ")
